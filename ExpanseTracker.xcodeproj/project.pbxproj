@@ -16,6 +16,7 @@
 		2DE081452802736900EBB6ED /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE081442802736900EBB6ED /* PreviewData.swift */; };
 		2DE081472802750100EBB6ED /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE081462802750100EBB6ED /* TransactionRow.swift */; };
 		2DE0814A28027E9800EBB6ED /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 2DE0814928027E9800EBB6ED /* SwiftUIFontIcon */; };
+		2DE0814E280280C600EBB6ED /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE0814D280280C600EBB6ED /* TransactionListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2DE081422802719F00EBB6ED /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		2DE081442802736900EBB6ED /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		2DE081462802750100EBB6ED /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		2DE0814D280280C600EBB6ED /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				2DE081322802688A00EBB6ED /* ExpanseTrackerApp.swift */,
 				2DE081342802688A00EBB6ED /* ContentView.swift */,
 				2DE081462802750100EBB6ED /* TransactionRow.swift */,
+				2DE0814D280280C600EBB6ED /* TransactionListViewModel.swift */,
 				2DE081422802719F00EBB6ED /* TransactionModel.swift */,
 				2DE0814028026A6E00EBB6ED /* Extensions.swift */,
 				2DE081362802688B00EBB6ED /* Assets.xcassets */,
@@ -162,6 +165,7 @@
 				2DE081352802688A00EBB6ED /* ContentView.swift in Sources */,
 				2DE081472802750100EBB6ED /* TransactionRow.swift in Sources */,
 				2DE0814128026A6E00EBB6ED /* Extensions.swift in Sources */,
+				2DE0814E280280C600EBB6ED /* TransactionListViewModel.swift in Sources */,
 				2DE081332802688A00EBB6ED /* ExpanseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
