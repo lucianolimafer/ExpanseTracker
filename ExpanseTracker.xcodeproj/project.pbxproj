@@ -17,6 +17,7 @@
 		2DE081472802750100EBB6ED /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE081462802750100EBB6ED /* TransactionRow.swift */; };
 		2DE0814A28027E9800EBB6ED /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 2DE0814928027E9800EBB6ED /* SwiftUIFontIcon */; };
 		2DE0814E280280C600EBB6ED /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE0814D280280C600EBB6ED /* TransactionListViewModel.swift */; };
+		2DE0815028028AB500EBB6ED /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE0814F28028AB500EBB6ED /* RecentTransactionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2DE081442802736900EBB6ED /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		2DE081462802750100EBB6ED /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		2DE0814D280280C600EBB6ED /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		2DE0814F28028AB500EBB6ED /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				2DE081322802688A00EBB6ED /* ExpanseTrackerApp.swift */,
 				2DE081342802688A00EBB6ED /* ContentView.swift */,
+				2DE0814F28028AB500EBB6ED /* RecentTransactionList.swift */,
 				2DE081462802750100EBB6ED /* TransactionRow.swift */,
 				2DE0814D280280C600EBB6ED /* TransactionListViewModel.swift */,
 				2DE081422802719F00EBB6ED /* TransactionModel.swift */,
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE081452802736900EBB6ED /* PreviewData.swift in Sources */,
+				2DE0815028028AB500EBB6ED /* RecentTransactionList.swift in Sources */,
 				2DE081432802719F00EBB6ED /* TransactionModel.swift in Sources */,
 				2DE081352802688A00EBB6ED /* ContentView.swift in Sources */,
 				2DE081472802750100EBB6ED /* TransactionRow.swift in Sources */,
