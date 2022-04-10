@@ -21,7 +21,7 @@ struct RecentTransactionList: View {
                 
                 // MARK: Header link
                 NavigationLink {
-                    
+                    TransactionList()
                 } label: {
                     HStack(spacing: 4) {
                         Text("Ver mais")
