@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D96220828045B46006F114B /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96220728045B46006F114B /* TransactionView.swift */; };
+		2D96220A280462BD006F114B /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D962209280462BD006F114B /* CategoryRow.swift */; };
+		2D96220C2804656B006F114B /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96220B2804656B006F114B /* CategoriesView.swift */; };
 		2DD018D92802A3B00015FE47 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 2DD018D82802A3B00015FE47 /* Collections */; };
 		2DD018DC2803C9320015FE47 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 2DD018DB2803C9320015FE47 /* SwiftUICharts */; };
 		2DD018DE280458860015FE47 /* TransactionDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD018DD280458860015FE47 /* TransactionDetailRow.swift */; };
@@ -27,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		2D96220728045B46006F114B /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		2D962209280462BD006F114B /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		2D96220B2804656B006F114B /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		2DD018DD280458860015FE47 /* TransactionDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailRow.swift; sourceTree = "<group>"; };
 		2DE0812F2802688A00EBB6ED /* ExpanseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpanseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE081322802688A00EBB6ED /* ExpanseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpanseTrackerApp.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				2DE0815128029A1300EBB6ED /* TransactionList.swift */,
 				2DE081462802750100EBB6ED /* TransactionRow.swift */,
 				2DD018DD280458860015FE47 /* TransactionDetailRow.swift */,
+				2D96220B2804656B006F114B /* CategoriesView.swift */,
+				2D962209280462BD006F114B /* CategoryRow.swift */,
 				2D96220728045B46006F114B /* TransactionView.swift */,
 				2DE0814D280280C600EBB6ED /* TransactionListViewModel.swift */,
 				2DE081422802719F00EBB6ED /* TransactionModel.swift */,
@@ -186,10 +192,12 @@
 				2DE081432802719F00EBB6ED /* TransactionModel.swift in Sources */,
 				2DD018DE280458860015FE47 /* TransactionDetailRow.swift in Sources */,
 				2D96220828045B46006F114B /* TransactionView.swift in Sources */,
+				2D96220C2804656B006F114B /* CategoriesView.swift in Sources */,
 				2DE081352802688A00EBB6ED /* ContentView.swift in Sources */,
 				2DE081472802750100EBB6ED /* TransactionRow.swift in Sources */,
 				2DE0814128026A6E00EBB6ED /* Extensions.swift in Sources */,
 				2DE0814E280280C600EBB6ED /* TransactionListViewModel.swift in Sources */,
+				2D96220A280462BD006F114B /* CategoryRow.swift in Sources */,
 				2DE081332802688A00EBB6ED /* ExpanseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
