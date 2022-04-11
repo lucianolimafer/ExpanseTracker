@@ -19,6 +19,19 @@ struct TransactionList: View {
                         // MARK: Transaction List
                         ForEach(transactions) {transaction in
                             TransactionRow(transaction: transaction)
+                                .overlay(
+                                    NavigationLink("", destination: {
+                                        TransactionView(transaction: transaction)
+                                    })
+                                        .opacity(0)
+                                )
+                            ZStack {
+                                TransactionRow(transaction: transaction)
+                                NavigationLink("", destination: {
+                                    TransactionView(transaction: transaction)
+                                })
+                                    .opacity(0)
+                            }
                         }
                     } header: {
                         // MARK: Transaction month
