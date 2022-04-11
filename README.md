@@ -1,68 +1,25 @@
 <h1 align="center">
-    <img alt="amsust" src="assets/cover.jpg" width="512px" />
+    <img alt="amsust" src="bannerRepo.png" width="512px" />
 </h1>
-<p align="center">Neste repositório, você vai encontrar uma aplicação mobile, desenvolvida para a<br/>Adriana Douran, ativista ambientál 🎓 (2020/2021). <br/> A aplicação inclui o Backend provido por um BaaS e Mobile com React Native e TypeScript.</p>
+
+<p align="center"> 🇧🇷 Neste repositório, você vai encontrar uma aplicação mobile, desenvolvida como prática de estudo. <br/> A aplicação inclui modelagem de dados, rede de dados, Combine, MVVM e bibliotecas para ícones e gráficos personalizados.</p>
+<p align="center">🇺🇸 In this repository, you will find a mobile application, developed as a study practice. <br/> The application includes data modeling, data networking, Combine, MVVM and libraries for custom icons and graphics.</p>
+
 
 
 # :coffee: Build Setup
 
-Para rodar o projeto, você precisa: [Node.js](https://nodejs.org/) para rodar localmente.
+🇧🇷 Para rodar o projeto, você precisa de Mac Os e XCode 12+. Após clonar o repositório pressione Comand + R para emular o app localmente.
 
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-
-# Informações adicionais
-
-Este projeto foi desenvolvido em Typescript utilizando React Hooks, styled-components e agilidade prática de código limpo.
-
-# :iphone: Mobile
-
-Após clonar o repositório, entre na raiz do projeto e instale todas as dependências utilizando o comando:
-```bash
-# Digite o comando abaixo para instalar as dependências:
-yarn install
-```
-Depois, digite o comando abaixo para iniciar a aplicação:
-```bash
-# Irá iniciar o metrobundler
-yarn start
-```
-E para iniciar a aplicação no emulador:
-```bash
-# Para emulador Android:
-yarn android
-
-# Para emulador IOS:
-yarn ios
-```
-<br>
-
-### 🛠 Tecnologias
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-
-
-# Colabore
-
-Você pode colaborar com este projeto, dê um Fork no mesmo e envia a sua pull request com uma nova feature/correção de bugs e etc...
-Será muito bem vindo!
+🇺🇸 To run the project, you need Mac Os and XCode 12+, and into press Command + R to emulate the app locally.
 
 # :memo: License
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
+🇺🇸 This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
 ![GitHub]()
 
-### Autor
----
+### Author
 
 
 <div align="center">
